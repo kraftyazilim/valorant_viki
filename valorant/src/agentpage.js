@@ -67,7 +67,12 @@ export class agentpage extends Component {
 
           <Text>{this.state.name}</Text>
           <Text>{this.state.text}</Text>
-          <Image source={require({this.state.image})} style = {{height: 200, width: 250, resizeMode : 'stretch',}} />
+          <Image
+        style={styles.tinyLogo}
+        source={{
+          uri: this.state.image,
+        }}
+      />
           
         
         </View>

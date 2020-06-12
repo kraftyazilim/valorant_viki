@@ -67,13 +67,13 @@ export class choosepage extends Component {
     this.props.navigation.navigate('agentspage');} 
 
     if (item.title == 'SİLAHLAR'){
-      this.props.navigation.navigate('agentspage');} 
+      this.props.navigation.navigate('weaponspage');} 
 
     if (item.title == 'HARİTALAR'){
-    this.props.navigation.navigate('agentspage');} 
+    this.props.navigation.navigate('mapspage');} 
 
     if (item.title == 'MODLAR'){
-      this.props.navigation.navigate('agentspage');} 
+      this.props.navigation.navigate('modespage');} 
     
   }
   
