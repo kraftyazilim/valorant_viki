@@ -11,11 +11,8 @@ import {
   color,
   Text,
 } from 'react-native';
-import agents from './res/agents.jpg';
 
 export class agentpage extends Component {
-
-
 
   constructor(props) {
     super(props);
@@ -27,15 +24,14 @@ export class agentpage extends Component {
 
 
       {
-      fetch("https://raw.githubusercontent.com/zekiahmetbayar/learnlinuxwithtux/master/LLWT/src/data/data.json")
+      fetch("https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/data/agents.json")
       .then((res) => res.json())
       .then((json) => {
-        json.commands.map(commands => {
-          if (commands.name == this.props.route.params.command) {
-            this.setState({ title: commands.name })
-            this.setState({ tt: commands.title });
-            this.setState({ link: commands.link });
-            this.setState({ text: commands.text });
+        json.agents.map(agents => {
+          if (agents.name == this.props.route.params.agent) {
+            this.setState({ name: agents.name })
+            this.setState({ text: agents.text });
+            this.setState({ image: agents.image });
           }
         })
       })
@@ -46,15 +42,14 @@ export class agentpage extends Component {
 
   componentDidMount = () => {
     {
-      fetch("https://raw.githubusercontent.com/zekiahmetbayar/learnlinuxwithtux/master/LLWT/src/data/data.json")
+      fetch("https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/data/agents.json")
       .then((res) => res.json())
       .then((json) => {
-      json.commands.map(commands => {
-        if (commands.name == this.props.route.params.command) {
-          this.setState({ title: commands.name })
-          this.setState({ tt: commands.title });
-          this.setState({ link: commands.link });
-          this.setState({ text: commands.text });
+      json.agents.map(agents => {
+        if (agents.name == this.props.route.params.agent) {
+          this.setState({ name: agents.name })
+            this.setState({ text: agents.text });
+            this.setState({ image: agents.image });
         }
       })
     })
@@ -67,19 +62,12 @@ export class agentpage extends Component {
     return (
 
       <View style={{ backgroundColor: '#fcfcfc' }} >
-
-        <View style={styles.videoStyle} >
-
-         
-        </View>
+        <View>
 
 
-        <View style={styles.textBoxStyle} >
-
-
-          <Text style={styles.titleStyle}>{this.state.tt}</Text>
-          <Text style={styles.textStyle}>{this.state.text}</Text>
-          
+          <Text>{this.state.name}</Text>
+          <Text>{this.state.text}</Text>
+          <Image source={require({this.state.image})} style = {{height: 200, width: 250, resizeMode : 'stretch',}} />
           
         
         </View>
