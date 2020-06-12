@@ -11,6 +11,7 @@ import {
   color,
   Text,
 } from 'react-native';
+import agents from './res/agents.jpg';
 
 export class agentpage extends Component {
 

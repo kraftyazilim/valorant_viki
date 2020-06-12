@@ -1,0 +1,93 @@
+{
+    
+    "agents" : [
+
+        {   "id"   : "1",
+            "name" : "BREACH",
+            "text" : "Brimstone’s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander ",
+            "image" : "./valorant/src/res/agent.jpg"
+        },
+
+        {   "id"   : "2",
+            "name" : "ls",
+            "title": "ls - List Directory Contents",
+            "text" : "- Kullanım: ls [SEÇENEK]... [DOSYA]..\n- Bulunulan dizindeki dosyaları listeler.\n- -a, --all . ile başlayan girdileri saklamaz.\n- -l uzun listeleme biçemi kullanır.\n",
+            "link" : "https://www.youtube.com/embed/zb5VsPlmvoI"
+
+        },
+
+        {   "id"   : "3",
+            "name" : "cd",
+            "title": "cd - Change Directory",
+            "text" : "- Kullanım: cd [-L|-P] [dir]\n- Bir dizinden bir başkasına geçmek için kullanılır.\n- Üst dizini belirtmek için: cd ..\n",
+            "link" : "https://www.youtube.com/embed/5XDIvpTIedk"
+
+        },
+
+        {   "id"   : "4",
+            "name" : "man",
+            "title": "man - Manual",
+            "text" : "- Kullanım: man komut_adı\n- man kılavuz sayfalarını biçimler ve görüntüler.\n",
+            "link" : "https://www.youtube.com/embed/eZ8cM0uTt-Q"
+
+        },
+
+        {   "id"   : "5",
+            "name" : "mkdir",
+            "title": "mkdir - Make Directory",
+            "text" : "- Kullanım: mkdir dizin_adı\n- Dizin oluşturmak için kullanılır.\n- Unix'in önceki sürümlerinde (BSD 4.1 öncesinde) bu komut yoktu. Onun yerine dizinler mknod ile oluşturuluyordu ve iç içe olan dizinler tek tek yapılıyordu.\n",
+            "link" : "https://www.youtube.com/embed/PkFM2hcmtDA"
+
+        },
+
+        {   "id"   : "6",
+            "name" : "nano",
+            "title": "nano - Nano's ANOther Editor",
+            "text" : "- Kullanım: nano dosya_adı\n- Nano GNU/Linux tabanlı işletim sistemlerindeki basit editörlerden biridir. Bir not defteri oluşturmanıza yarar.\n",
+            "link" : "https://www.youtube.com/embed/GGbOjylrEZc"
+
+        },
+
+        {   "id"   : "7",
+            "name" : "cat",
+            "title": "cat - Concatenate",
+            "text" : "- Kullanım: cat [DOSYA]\n- Parametre olarak aldığı dosyayı ekrana basar.\n- cat kaynak.txt > hedef.txt şeklinde kullanılırsa kaynak dosyasındaki sonucu hedefe yönlendirir.\n- cat kaynak.txt >> hedef.txt şeklinde kullanırsa kaynak dosyasındaki içeriği de hedefe yönlendirir.\n",
+            "link" : "https://www.youtube.com/embed/7N_sGZNoD7Q"
+
+        },
+
+        {   "id"   : "8",
+            "name" : "mv",
+            "title": "mv - Move",
+            "text" : "- Kullanım: mv [KAYNAK] [HEDEF]\n- Kaynağı hedef olarak yeniden adlandırır veya kaynakları dizine taşır.\n",
+            "link" : "https://www.youtube.com/embed/6Qmwk_7fLJE"
+
+        },
+
+        {   "id"   : "9",
+            "name" : "rm",
+            "title": "rm - Remove",
+            "text" : "- Kullanım: Rm dosya_adı\n- Rm dizinleri içindekilerle birlikte silmek için kullanılır.\n- Genellikle 'rm -rf' şeklinde kullanılır. Bu şekilde kullanılırsa sistem üzerindeki her şeyi silme yetkisine sahip olur.\n",
+            "link" : "https://www.youtube.com/embed/1wTADOeq6yA"
+
+        },
+
+
+        {   "id"   : "10",
+            "name" : "touch",
+            "title": "touch - Change File Timestamps",
+            "text" : "- Kullanım: touch dosya_adı\n- Boş bir dosya oluşturmaya yarar.\n",
+            "link" : "https://www.youtube.com/embed/ldcbRfN56SA"
+
+        },
+
+
+        {   "id"   : "11",
+            "name" : "clear",
+            "title": "clear - Clear the Terminal Screen",
+            "text" : "- Kullanım: clear\n- Mevcut terminal ekranını temizlemeye yarar.\n",
+            "link" : "https://www.youtube.com/embed/nAZjbr4c0N8"
+
+        }
+    ]
+}

@@ -11,7 +11,8 @@ import {
 } from 'react-native';
 import background_File from './res/sections.png';
 import section_Box from './res/section_Box.png';
-import { ScrollView } from 'react-native-gesture-handler';
+
+
 
 
 const DATA = [

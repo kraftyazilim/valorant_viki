@@ -9,27 +9,33 @@ import {
   Text,
   TouchableOpacity
 } from 'react-native';
-import background_File from './res/sections.png';
-import section_Box from './res/section_Box.png';
-import { ScrollView } from 'react-native-gesture-handler';
 
+import background_File from './res/sections.png';
+import agents from './res/agents.jpg';
+import weapons from './res/weapons.jpg';
+import maps from './res/maps.jpg';
+import modes from './res/modes.jpeg';
 
 const DATA = [
   {
     id: '1',
     title: 'AJANLAR',
+    image : agents
   },
   {
     id: '2',
     title: 'SİLAHLAR',
+    image : weapons
   },
   {
     id: '3',
     title: 'HARİTALAR',
+    image : maps
   },
   {
     id: '4',
     title: 'MODLAR',
+    image : modes
   }
 ];
 
@@ -45,7 +51,7 @@ export class choosepage extends Component {
       <View style={styles.item}>
         <TouchableOpacity onPress={() => this.nextScreen({ item })}  >
           <ImageBackground style={styles.item}
-            source={section_Box}
+            source={item.image}
             resizeMode="stretch"
           >
             <Text style={styles.box_Text}>{item.title} </Text>
@@ -97,10 +103,11 @@ const styles = StyleSheet.create({
   item: {
     padding: 1,
     marginHorizontal: 10,
-    height: 80,
+    height: 120,
     width: 'auto',
     marginBottom: 30,
-    textAlign: 'center'
+    textAlign: 'center',
+
   },
   title: {
     fontSize: 32,
@@ -110,8 +117,9 @@ const styles = StyleSheet.create({
 
   },
   box_Text: {
-
+    fontFamily: 'valorant',
     textAlign: 'center',
+    color : 'red',
     marginTop: 'auto',
     marginBottom: 'auto',
     fontSize: 20
