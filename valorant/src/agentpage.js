@@ -31,7 +31,6 @@ export class agentpage extends Component {
           if (agents.name == this.props.route.params.agent) {
             this.setState({ name: agents.name })
             this.setState({ text: agents.text });
-            this.setState({ image: agents.image });
           }
         })
       })
@@ -49,7 +48,6 @@ export class agentpage extends Component {
         if (agents.name == this.props.route.params.agent) {
           this.setState({ name: agents.name })
             this.setState({ text: agents.text });
-            this.setState({ image: agents.image });
         }
       })
     })

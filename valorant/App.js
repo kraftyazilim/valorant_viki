@@ -9,6 +9,9 @@ import { weaponspage } from './src/weaponspage';
 import { mapspage } from './src/mapspage';
 import { modespage } from './src/modespage';
 import { agentpage } from './src/agentpage';
+import { bos } from './src/tubito';
+
+
 const Stack = createStackNavigator();
 
 export default function App() {
@@ -21,6 +24,8 @@ export default function App() {
     cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS
   }}
   >
+       
+       
        <Stack.Screen name="mainpage" component={mainpage} />
        <Stack.Screen name="choosepage" component={choosepage} />
        <Stack.Screen name="agentspage" component={agentspage} />
@@ -28,8 +33,29 @@ export default function App() {
        <Stack.Screen name="mapspage" component={mapspage} />
        <Stack.Screen name="modespage" component={modespage} />
        <Stack.Screen name="agentpage" component={agentpage} />
+       <Stack.Screen name="bos" component={bos} />
+       
 
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
+
+/*
+<Stack.Screen name="heavies" component={heavies} />
+       <Stack.Screen name="rifles" component={rifles} />
+       <Stack.Screen name="shotguns" component={shotguns} />
+       <Stack.Screen name="sidearms" component={sidearms} />
+       <Stack.Screen name="smgs" component={smgs} />
+       <Stack.Screen name="snipers" component={snipers} />
+
+
+       import { heavies } from './src/weapons/heavies';
+import { rifles } from './src/weapons/rifles';
+import { shotguns } from './src/weapons/shotguns';
+import { sidearms } from './src/weapons/sidearms';
+import { smgs } from './src/weapons/smgs';
+import { snipers } from './src/weapons/snipers';
+
+
+*/

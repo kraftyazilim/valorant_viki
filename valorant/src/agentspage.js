@@ -9,8 +9,14 @@ import {
   Text,
   TouchableOpacity
 } from 'react-native';
-import background_File from './res/sections.png';
+import background_File from './res/arkaplan.png';
 import section_Box from './res/section_Box.png';
+import breach from './res/Breach.png';
+import brimstone from './res/Brimstone.png';
+import cypher from './res/Cypher.png';
+import jett from './res/Jett.png';
+import omen from './res/Omen.png';
+
 
 
 
@@ -19,22 +25,27 @@ const DATA = [
   {
     id: '1',
     title: 'BREACH',
+    image: breach
   },
   {
     id: '2',
     title: 'BRIMSTONE',
+    image: brimstone
   },
   {
     id: '3',
     title: 'CYPHER',
+    image: cypher
   },
   {
     id: '4',
     title: 'JETT',
+    image: jett
   },
   {
     id: '5',
     title: 'OMEN',
+    image: omen
   },
   {
     id: '6',
@@ -74,7 +85,7 @@ export class agentspage extends Component {
       <View style={styles.item}>
         <TouchableOpacity onPress={() => this.nextScreen({ item })}  >
           <ImageBackground style={styles.item}
-            source={section_Box}
+            source={item.image}
             resizeMode="stretch"
           >
             <Text style={styles.box_Text}>{item.title} </Text>
@@ -93,8 +104,17 @@ export class agentspage extends Component {
     return (
       <View>
         <ImageBackground
+        
+
           style={{ width: '100%', height: '100%' }}
           source={background_File} >
+          <View>
+
+              <Text style = {styles.header}> AGENTS</Text>
+
+            
+          </View>
+
           <View>
             <FlatList
               style={styles.flatList}
@@ -115,7 +135,7 @@ const styles = StyleSheet.create({
   item: {
     padding: 1,
     marginHorizontal: 10,
-    height: 80,
+    height: 500,
     width: 'auto',
     marginBottom: 30,
     textAlign: 'center'
@@ -124,7 +144,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
   },
   flatList: {
-    marginTop: '30%'
+    marginTop: '5%'
 
   },
   box_Text: {
@@ -132,7 +152,24 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 'auto',
     marginBottom: 'auto',
-    fontSize: 20
+    fontSize: 20,
+    fontFamily : 'valorant',
+    color: 'white'
+  },
+
+  header : {
+
+    fontFamily : 'valorant',
+    fontSize : 45,
+    color : 'white',
+    marginBottom : 'auto',
+    marginTop : 47,
+    textAlign : 'center',
+
+
+
+
+
   }
 
 

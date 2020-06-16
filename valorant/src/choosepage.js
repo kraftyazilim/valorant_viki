@@ -11,8 +11,8 @@ import {
 } from 'react-native';
 
 import background_File from './res/sections.png';
-import agents from './res/agents.jpg';
-import weapons from './res/weapons.jpg';
+import agents from './res/sampiyonlar.png';
+import weapons from './res/silahlar.png';
 import maps from './res/maps.jpg';
 import modes from './res/modes.jpeg';
 
@@ -24,12 +24,12 @@ const DATA = [
   },
   {
     id: '2',
-    title: 'SİLAHLAR',
+    title: 'SILAHLAR',
     image : weapons
   },
   {
     id: '3',
-    title: 'HARİTALAR',
+    title: 'HARITALAR',
     image : maps
   },
   {
@@ -52,7 +52,7 @@ export class choosepage extends Component {
         <TouchableOpacity onPress={() => this.nextScreen({ item })}  >
           <ImageBackground style={styles.item}
             source={item.image}
-            resizeMode="stretch"
+            resizeMode="contain"
           >
             <Text style={styles.box_Text}>{item.title} </Text>
           </ImageBackground>
@@ -66,10 +66,10 @@ export class choosepage extends Component {
     if (item.title == 'AJANLAR'){
     this.props.navigation.navigate('agentspage');} 
 
-    if (item.title == 'SİLAHLAR'){
+    if (item.title == 'SILAHLAR'){
       this.props.navigation.navigate('weaponspage');} 
 
-    if (item.title == 'HARİTALAR'){
+    if (item.title == 'HARITALAR'){
     this.props.navigation.navigate('mapspage');} 
 
     if (item.title == 'MODLAR'){

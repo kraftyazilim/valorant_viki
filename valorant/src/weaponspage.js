@@ -9,52 +9,43 @@ import {
   Text,
   TouchableOpacity
 } from 'react-native';
-import background_File from './res/sections.png';
-import sidearm from './res/sidearms.png';
-import smgs from './res/smgs.png';
-import rifles from './res/rifles.png';
-import shotguns from './res/shotguns.png';
-import heavies from './res/heavies.png';
-import snipers from './res/snipers.png';
-import melees from './res/melees.png';
-
-
+import background_File from './res/arkaplan.png';
 
 const DATA = [
   {
     id: '1',
     title: 'TABANCA',
-    image : sidearm
+    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
   },
   {
     id: '2',
     title: 'HAFIF MAKINELI',
-    image : smgs
+    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
   },
   {
     id: '3',
     title: 'TUFEK',
-    image : rifles
+    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
   },
   {
     id: '4',
     title: 'POMPALI',
-    image : shotguns
+    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
   },
   {
     id: '5',
     title: 'AGIR MAKINELI',
-    image : heavies
+    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
   },
   {
     id: '6',
     title: 'KESKIN NISANCI',
-    image : snipers
+    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
   },
   {
     id: '7',
     title: 'BICAK',
-    image : melees
+    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
   }
 ];
 
@@ -64,14 +55,17 @@ export class weaponspage extends Component {
   constructor(props) {
     super(props);
   }
+  
 
   Item = ({ item }) => {
     return (
+
+      
       <View style={styles.item}>
         <TouchableOpacity onPress={() => this.nextScreen({ item })}  >
           <ImageBackground style={styles.item}
-            source={item.image}
-            resizeMode="stretch"
+            source={{uri : item.image}}
+            resizeMode="contain"
           >
             <Text style={styles.box_Text}>{item.title} </Text>
           </ImageBackground>
@@ -81,17 +75,25 @@ export class weaponspage extends Component {
     );
   }
 
+
+  
   nextScreen = ({item}) => {
     
     this.props.navigation.navigate('agentpage',{agent:item.title});}
   
   render() {
     return (
+
+      
       <View>
+
+
         <ImageBackground
           style={{ width: '100%', height: '100%' }}
           source={background_File} >
           <View>
+
+          
             <FlatList
               style={styles.flatList}
               data={DATA}
