@@ -4,90 +4,73 @@
 
         {   "id"   : "1",
             "name" : "BREACH",
-            "text" : "fasdf",
-            "image" : "https://github.com/kraftyazilim/valorant_viki/blob/master/valorant/src/res/agents.jpg"
+            "text" : "Breach, düşman topraklarında agresif bir şekilde yol açmak için güçlü, hedefli kinetik patlamalar ateşler. Verdiği hasar ve aksama, hiçbir kavganın adil olmamasını sağlar.\n\nBreach'in ana hüneri, yeteneklerini ister duvarlardan, çatılardan ister araziden haritanın geometrisi aracılığıyla kullanma yeteneğidir. Bu yetenek seti tecrübeli oyuncuları haritaları iyi tanıdığı için ödüllendirir. Yeteneklerinin çoğu kitle kontrol tabanlı olmasına rağmen, agresif bir oyun tarzını ödüllendiriyor gibi görünüyor.",
+            "image" : ""
         },
 
         {   "id"   : "2",
-            "name" : "ls",
-            "title": "ls - List Directory Contents",
-            "text" : "- Kullanım: ls [SEÇENEK]... [DOSYA]..\n- Bulunulan dizindeki dosyaları listeler.\n- -a, --all . ile başlayan girdileri saklamaz.\n- -l uzun listeleme biçemi kullanır.\n",
-            "link" : "https://www.youtube.com/embed/zb5VsPlmvoI"
-
+            "name" : "BRIMSTONE",
+            "text" : "Brimstone’un yörünge cephaneliği ekibinin her zaman avantajlı olmasını sağlar.\n\nBrimstone, kışkırtıcı bombaları, duman perdesi hava saldırıları, düşmanlara zarar vermek ve takım arkadaşlarını güçlendirmek için hızlı uyarı işaretlerini kullanan güçlü bir komutan. Etkileyici Orbital Saldırısı, yarıçaptan yeterince hızlı kaçmayanları yok eden muazzam bir lazeri çağırıyor.",
+            "image" : ""
         },
 
         {   "id"   : "3",
-            "name" : "cd",
-            "title": "cd - Change Directory",
-            "text" : "- Kullanım: cd [-L|-P] [dir]\n- Bir dizinden bir başkasına geçmek için kullanılır.\n- Üst dizini belirtmek için: cd ..\n",
-            "link" : "https://www.youtube.com/embed/5XDIvpTIedk"
-
+            "name" : "CYPHER",
+            "text" : "Cypher, düşmanın her hareketini takip eden tek kişilik bir gözetim ağıdır. Hiçbir sır güvende değil. Hiçbir manevra görünmez değil. Cypher her zaman sizi izliyor.\n\n Eğer istihbarat sizin işinizse, Cypher sizin ajanınız olabilir. Bu Faslı gözetim teknesi, tuzaklara takılan rakiplerinin konumlarını ortaya çıkarmasının yanı sıra, hareketi uzaktan izlemek için haritaya yerleştirilebilen gerçek bir spycam'a sahiptir.\n\nUltisi rakip takımda kalan karakterlerin yerini geçici olarak ortaya çıkarmak için bir düşman cesedinden bilgi alır.",
+            "image" : ""
         },
 
         {   "id"   : "4",
-            "name" : "man",
-            "title": "man - Manual",
-            "text" : "- Kullanım: man komut_adı\n- man kılavuz sayfalarını biçimler ve görüntüler.\n",
-            "link" : "https://www.youtube.com/embed/eZ8cM0uTt-Q"
-
+            "name" : "JETT",
+            "text" : "Jett’in çevik ve kaçınılmaz dövüş tarzı, kimsenin yapamayacağı riskleri almasına izin verir. Her çatışmanın etrafında daireler çiziyor, düşmanları onlara neyin çarptığını bile bilmeden yok oluyor. \n \nJett pasif kabiliyete sahip birkaç ajandan biridir. Atlama tuşunu havada tutmak Jett'in inişini yavaşlatmasına izin verecektir.\n\nJett'in ultisi, orta derecede hasar veren ve kafadan vuruşlarda öldüren birkaç fırlatma bıçağı kullanmasına izin verir. Birini öldürmek ultinizi yeniler, hançerleri teker teker atmayı veya kalan tüm hançerleri kısa menzilli bir patlamada atmayı seçebilirsiniz.\n\nKore'den, her şeyden önce harekete öncelik veren ve çevik bir savaşçı olan Jett geliyor. Yetenekleri arasında ışınlanma temelli bir çizgi ve daha yüksek çıkıntılara ulaşmasına izin veren bir yukarı akım yer alıyor. Ayrıca görme çizgilerini engelleyecek bir duman bombası yeteneğine ve orta-ağır hasar veren ve hareket ederken bile doğru kalan güçlü bir ulti yeteneğine sahip.",
+            "image" : ""
         },
 
         {   "id"   : "5",
-            "name" : "mkdir",
-            "title": "mkdir - Make Directory",
-            "text" : "- Kullanım: mkdir dizin_adı\n- Dizin oluşturmak için kullanılır.\n- Unix'in önceki sürümlerinde (BSD 4.1 öncesinde) bu komut yoktu. Onun yerine dizinler mknod ile oluşturuluyordu ve iç içe olan dizinler tek tek yapılıyordu.\n",
-            "link" : "https://www.youtube.com/embed/PkFM2hcmtDA"
-
+            "name" : "OMEN",
+            "text" : "Gizemli kökenleri olan bir adam olan Omen, düşmanlarının görüşünü, görüş alanlarındaki kişilere yakını göremeyenlere ve yakındaki herkesin görüşünü kapatmak için patlayan bir küre gibi şeyleri kullanmaya odaklanmıştır. Ayrıca kısa bir mesafe ışınlanabilir ya da nihai noktasını haritanın herhangi bir yerinde gölge olarak ışınlamak için kullanabilir.",
+            "image" : ""
         },
 
         {   "id"   : "6",
-            "name" : "nano",
-            "title": "nano - Nano's ANOther Editor",
-            "text" : "- Kullanım: nano dosya_adı\n- Nano GNU/Linux tabanlı işletim sistemlerindeki basit editörlerden biridir. Bir not defteri oluşturmanıza yarar.\n",
-            "link" : "https://www.youtube.com/embed/GGbOjylrEZc"
-
+            "name" : "PHOENIX",
+            "text" : "Phoenix’in yıldız gücü savaş tarzında parlar, savaş alanını flaş ve parıltı ile ateşler. İster yedeği olsun ister olmasın, kendi şartlarıyla savaşmak için acele ediyor.\n\nDüşmanlara zarar veren ve onu iyileştiren patlayan ateş topları, vizyonu engelleyen bir ateş duvarı ve kör edici bir ateş patlaması ile Phoenix, maçın akışını manipüle etmekte harika. Ulti süresi boyunca öldürülürse yeniden doğma yeteneğine sahiptir, yapamayacağı cesur hareketler yapmak için onu canlandırır.\n\nPhoenix kendi ateşinde durarak kendini iyileştirebilir.",
+            "image" : ""
         },
 
         {   "id"   : "7",
-            "name" : "cat",
-            "title": "cat - Concatenate",
-            "text" : "- Kullanım: cat [DOSYA]\n- Parametre olarak aldığı dosyayı ekrana basar.\n- cat kaynak.txt > hedef.txt şeklinde kullanılırsa kaynak dosyasındaki sonucu hedefe yönlendirir.\n- cat kaynak.txt >> hedef.txt şeklinde kullanırsa kaynak dosyasındaki içeriği de hedefe yönlendirir.\n",
-            "link" : "https://www.youtube.com/embed/7N_sGZNoD7Q"
-
+            "name" : "RAZE",
+            "text" : "Raze patlayıcıları sever. Kör-kuvvet-travma oyun tarzıyla köklü düşmanları yıkarken, cömert bir doz BOM ile dar alanları temizlemede mükemmeldir. \n\nRaze'nin oyun stili, VALORANT'daki diğer ajanlara kıyasla çok agresiftir, çünkü yeteneklerinin çoğu destek yerine hareketlilik ve hasara odaklanmıştır.",
+            "image" : ""
         },
 
         {   "id"   : "8",
-            "name" : "mv",
-            "title": "mv - Move",
-            "text" : "- Kullanım: mv [KAYNAK] [HEDEF]\n- Kaynağı hedef olarak yeniden adlandırır veya kaynakları dizine taşır.\n",
-            "link" : "https://www.youtube.com/embed/6Qmwk_7fLJE"
-
+            "name" : "REYNA",
+            "text" : "Meksika'nın kalbinden kopup gelmiş Reyna teke tek çatışmalarda düşmanını ezer ve aldığı her skorla daha da coşar. Yapabilecekleri tamamen saf beceri gerektirir ve onu ciddi şekilde performansa dayalı kılar.",
+            "image" : ""
         },
 
         {   "id"   : "9",
-            "name" : "rm",
-            "title": "rm - Remove",
-            "text" : "- Kullanım: Rm dosya_adı\n- Rm dizinleri içindekilerle birlikte silmek için kullanılır.\n- Genellikle 'rm -rf' şeklinde kullanılır. Bu şekilde kullanılırsa sistem üzerindeki her şeyi silme yetkisine sahip olur.\n",
-            "link" : "https://www.youtube.com/embed/1wTADOeq6yA"
-
+            "name" : "SAGE",
+            "text" : "Sage gittiği her yerde kendisi ve ekibi için güven yaratır. Ölmüş arkadaşlarını yeniden canlandırabilir ve zorlayıcı saldırılara maruz kalabilen savaş alanına sakin bir merkez sağlar.\n\nBugüne kadarki en önemli destek karakteri Çin'den geliyor ve müttefikleri iyileştiren, düşmanları yavaşlatan ve bir maçın akışını engellemek için yerden engeller oluşturan küreler getiriyor.",
+            "image" : ""
         },
-
 
         {   "id"   : "10",
-            "name" : "touch",
-            "title": "touch - Change File Timestamps",
-            "text" : "- Kullanım: touch dosya_adı\n- Boş bir dosya oluşturmaya yarar.\n",
-            "link" : "https://www.youtube.com/embed/ldcbRfN56SA"
-
+            "name" : "SOVA",
+            "text" : "Sova, acımasızca etkili ve hassasiyetle düşmanları izler, bulur ve ortadan kaldırır. Onun özel yay ve inanılmaz keşif yeteneklerinden koşsanız bile gizlenemezsiniz.\n\nBir okçuluk uzmanı, yayını düşman yerlerini ortaya çıkaran veya yakındaki rakipleri şok eden farklı cıvatalarla donatabilir. Aynı zamanda savaş alanını araştırmak için bir keşif uçağı gönderebilir.Ulti gücü ise duvarlardan üç ölümcül ok atışı yapmasına izin verir.",
+            "image" : ""
         },
 
-
         {   "id"   : "11",
-            "name" : "clear",
-            "title": "clear - Clear the Terminal Screen",
-            "text" : "- Kullanım: clear\n- Mevcut terminal ekranını temizlemeye yarar.\n",
-            "link" : "https://www.youtube.com/embed/nAZjbr4c0N8"
-
+            "name" : "VIPER",
+            "text" : "Viper, savaş alanını kontrol etmek ve düşmanın vizyonunu sakatlamak için bir dizi zehirli kimyasal cihaz kullanıyor.Toksinler avını öldürmezse, akıl oyunları mutlaka bunu başaracaktır.\n\nZehir ve kimyasal savaşla uğraşan bir avcı. Savaş alanına asit döken patlayan mermilerin yanı sıra bir zehirli gaz yayıcısı ve geçişi önlemek için zehirli bir gaz ekranı var. Ultisi yerini gizleyen ve içinde dolaşan düşmanları zehirleyen toksik bir bulut yayar.",
+            "image" : ""
         }
+
+        
+
+
+       
     ]
 }
