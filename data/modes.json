@@ -1,0 +1,23 @@
+{
+    
+    "modes" : [
+
+        {   "id"   : "1",
+            "name" : "Derecesiz",
+            "text" : "Spike'ı Kur veya İmha et.",
+            "time" : "30-40 dakika."                         
+        },
+        
+        {   "id"   : "2",
+            "name" : "Dereceli",
+            "text" : "Spike'ı Kur veya İmha et.",
+            "time" : "30-40 dakika."                     
+        },
+
+        {   "id"   : "3",
+            "name" : "Spike'a Hücum",
+            "text" : "Haritadaki küreleri topla gücü yakala.",
+            "time" : "8-12 dakika."                       
+        } 
+    ]
+}

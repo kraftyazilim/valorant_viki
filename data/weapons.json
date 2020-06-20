@@ -1,0 +1,151 @@
+{
+    
+    "weapons" : [
+
+        {   "id"   : "1",
+            "name" : "CLASSIC",
+            "cost" : "Ücretsiz",
+            "type" : "BEYLİK SİLAHLAR",
+            "text" : "Hareketsiz haldeyken temel atışlar isabetli bir şekilde hedefe ulaşır. Yakın çatışmalarda kullanılabilecek bir seri atış moduna sahip."
+                                    
+        },
+        
+        {   "id"   : "2",
+            "name" : "SHORTY",
+            "cost" : "200",
+            "type" : "BEYLİK SİLAHLAR",
+            "text" : "Bu hızlı, kısa namlulu pompalı tüfek kısa menzilde ölümcüldür fakat iki kere ateşlendikten sonra doldurulması gerekir. Uzun menzilli silahlarla birlikte güzel iş görür."
+                                    
+        },
+
+        {   "id"   : "3",
+            "name" : "FRENZY",
+            "cost" : "400",
+            "type" : "BEYLİK SİLAHLAR",
+            "text" : "Hafif makineli tabanca hareket ederken ateş etme konusunda benzerlerinden sıyrılır. Yüksek atış hızı nedeniyle kontrol etmek biraz zor olabilir; o yüzden orta menzilde kısa seriler halinde ateşlemeyi dene."
+                                    
+        },
+
+        {   "id"   : "4",
+            "name" : "GHOST",
+            "cost" : "500",
+            "type" : "BEYLİK SİLAHLAR",
+            "text" : "Ghost hem isabetli hem de hedefi kaçırma ihtimaline karşı büyük bir şarjöre sahip. Uzaktaki hedefler için atış hızını kontrol altında tutmak gerekli. Rakiplerin burnunun ucunu gördüğün an tetiğe bas."
+                                    
+        },
+
+        {   "id"   : "5",
+            "name" : "SHERIFF",
+            "cost" : "800",
+            "type" : "BEYLİK SİLAHLAR",
+            "text" : "Vurdu mu oturtan mermileri ateşlerken ciddi anlamda geri teper. Uzmanlaşmak için sabır ve kararlılık gerekir.\n\nSheriff'in hakkını verebilirsen rakiplerini bozuk para gibi harcayabilirsin."
+                                    
+        },
+
+        {   "id"   : "6",
+            "name" : "STINGER",
+            "cost" : "1000",
+            "type" : "HAFİF MAKİNELİLER",
+            "text" : "Bu hafif makineli silah, orta ve uzun menzilde benzerlerine oranla çok daha etkili fakat bunun için atış hızı ve hareketlilikten ödün verir.\n\nEtrafa mermi yağdırırken 20 mermilik şarjörünü çatır çatır yese de orta menzilde dürbün kullanarak kontrollü atışlar yapıldığında ölümcül sonuçlara yol açar."
+                                    
+        },
+
+        {   "id"   : "7",
+            "name" : "SPECTRE",
+            "cost" : "1600",
+            "type" : "HAFİF MAKİNELİLER",
+            "text" : "Her işin üstesinden gelebilen bu silah kısa ve orta menzilde hasar, atış hızı ve isabetliliği müthiş dengeli bir şekilde aynı potada eritiyor.\n\nHaritaların köşelerini rakipler için kâbusa dönüştüren bu silahla uzun mesafedeki rakipleri indirmek için sana düşen tek şey iyi nişan almak."
+                                    
+        },
+
+        {   "id"   : "8",
+            "name" : "BUCKY",
+            "cost" : "900",
+            "type" : "POMPALI TÜFEKLER",
+            "text" : "Ağır ama isabetli Bucky'nin temel atışı, dar köşeleri tutmak ve yakın çatışmalara dalmak için ideal. Alternatif atışıysa hedefleri orta menzilde vurur."
+                                    
+        },
+
+        {   "id"   : "9",
+            "name" : "JUDGE",
+            "cost" : "",
+            "type" : "POMPALI TÜFEKLER",
+            "text" : "Judge, sabit dururken isabetli olsa da art arda hızlı bir şekilde ateş ederken kontrolden çıkabilir.\n\nTemel atışı kısa menzildeki hedefleri vurdu mu oturtur. Bir kol uzaklığındaki herkesi indirerek yargı dağıtmak için sabit durmalısın."
+                                    
+        },
+
+        {   "id"   : "10",
+            "name" : "BULLDOG",
+            "cost" : "2100",
+            "type" : "TÜFEKLER",
+            "text" : "Bu sağlam canavarla atış şeklini sen belirlersin. Alternatif atışı, dürbünle bakarken sana yaklaşmaya çalışan orta veya uzun menzildeki düşmanları isabetli, kısa seri atışlarla savuşturmanı sağlar."
+                                    
+        },
+
+        {   "id"   : "11",
+            "name" : "GUARDIAN",
+            "cost" : "2700",
+            "type" : "TÜFEKLER",
+            "text" : "Özel bir keskin nişancı tüfeği. Diğer tüfeklere oranla çok daha ağır ve taşınması çok daha zor fakat bir o kadar da isabetli ve güçlü. Orta ve uzun menzilde görüş açına giren düşmanları patır patır avlayabilirsin."
+                                    
+        },
+
+        {   "id"   : "12",
+            "name" : "PHANTOM",
+            "cost" : "2900",
+            "type" : "TÜFEKLER",
+            "text" : "Sana fazla yaklaşmaya cesaret eden olursa tam otomatik silahının nimetlerinden faydalanarak kontrollü seri atışlarla düşmanlarının hayatını karartabilirsin. En iyi performansı almak için sabit dururken ateşle."
+                                    
+        },
+
+        {   "id"   : "13",
+            "name" : "VANDAL",
+            "cost" : "2900",
+            "type" : "TÜFEKLER",
+            "text" : "Fakat uzun süreli ateş edildiğinde isabetliliği azalır. Vandal, arada mesafe varken de yüksek hasar vermeye devam eder ve odaklanarak hedefe tek mermiyle kafa atışı yapanları ödüllendirir."
+                                    
+        },        
+
+        {   "id"   : "14",
+            "name" : "MARSHAL",
+            "cost" : "1100",
+            "type" : "KESKİN NİŞANCI TÜFEKLERİ",
+            "text" : "Bir kere yakınlaştırılabilen dürbüne sahip, çevik ve levyeli keskin nişancı tüfeğiyle etrafta koşturan düşmanları keklik gibi avlayabilirsin. Yavaş atış hızı nedeniyle attığını vurmalısın yoksa saldırıya açık hale gelirsin."
+                                    
+        },
+        
+        {   "id"   : "15",
+            "name" : "OPERATOR",
+            "cost" : "4500",
+            "type" : "KESKİN NİŞANCI TÜFEKLERİ",
+            "text" : "Bu acımasız, sürgülü keskin nişancı tüfeği iki farklı çok güçlü yakınlaştırma ayarına sahip. Hareket halinde kullanılması neredeyse imkânsız fakat attığı mermiler o kadar güçlü ki tek bir atışla bütün bir takımın sonunu getirebilir."
+                                    
+        },
+
+
+        {   "id"   : "16",
+            "name" : "ARES",
+            "cost" : "1600",
+            "type" : "AĞIR SİLAHLAR",
+            "text" : "Ares, büyük şarjörü sayesinde bastırma ateşi açmak veya bir araya toplanmış gruplara ağır hasar vermek için ideal bir silah."
+                                    
+        },
+
+        {   "id"   : "17",
+            "name" : "ODIN",
+            "cost" : "3200",
+            "type" : "AĞIR SİLAHLAR",
+            "text" : "Baskı kuran ve yüksek hasar veren atışları aynı zamanda şaşırtıcı derecede isabetli. Kısa menzildeki düşmanları mermi yağmuruna tutabilir ve alternatif atışını kullanarak kanlı canlı bir tarete dönüşebilirsin."
+                                    
+        },
+
+        {   "id"   : "18",
+            "name" : "TAKTİK BIÇAK",
+            "cost" : "Ücretsiz",
+            "type" : "YAKIN DÖVÜŞ",
+            "text" : "Ne yapacağını şaşırdığında veya mermilerin suyunu çektiğinde bunu kullan. Hızlı koşmanı, nesneleri daha hızlı parçalamanı veya alternatif atışla düşmanları arkadan tek vuruşla indirmeni sağlar."
+                                    
+        }
+ 
+    ]
+}

@@ -10,32 +10,32 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-import background_File from './res/sections.png';
-import agents from './res/sampiyonlar.png';
-import weapons from './res/silahlar.png';
-import maps from './res/maps.jpg';
-import modes from './res/modes.jpeg';
+import background_File from './res/background.jpg';
+import agents from './res/choose_page/choose_agents.png';
+import weapons from './res/choose_page/choose_weapons.png';
+import maps from './res/choose_page/choose_maps.png';
+import modes from './res/choose_page/choose_modes.png';
 
 const DATA = [
   {
     id: '1',
     title: 'AJANLAR',
-    image : agents
+    image: agents
   },
   {
     id: '2',
     title: 'SILAHLAR',
-    image : weapons
+    image: weapons
   },
   {
     id: '3',
     title: 'HARITALAR',
-    image : maps
+    image: maps
   },
   {
     id: '4',
     title: 'MODLAR',
-    image : modes
+    image: modes
   }
 ];
 
@@ -52,31 +52,35 @@ export class choosepage extends Component {
         <TouchableOpacity onPress={() => this.nextScreen({ item })}  >
           <ImageBackground style={styles.item}
             source={item.image}
-            resizeMode="contain"
-          >
+            resizeMode="contain" >
+
             <Text style={styles.box_Text}>{item.title} </Text>
+
           </ImageBackground>
-  
         </TouchableOpacity>
       </View>
     );
   }
 
-  nextScreen = ({item}) => {
-    if (item.title == 'AJANLAR'){
-    this.props.navigation.navigate('agentspage');} 
+  nextScreen = ({ item }) => {
+    if (item.title == 'AJANLAR') {
+      this.props.navigation.navigate('agentspage');
+    }
 
-    if (item.title == 'SILAHLAR'){
-      this.props.navigation.navigate('weaponspage');} 
+    if (item.title == 'SILAHLAR') {
+      this.props.navigation.navigate('weaponspage');
+    }
 
-    if (item.title == 'HARITALAR'){
-    this.props.navigation.navigate('mapspage');} 
+    if (item.title == 'HARITALAR') {
+      this.props.navigation.navigate('mapspage');
+    }
 
-    if (item.title == 'MODLAR'){
-      this.props.navigation.navigate('modespage');} 
-    
+    if (item.title == 'MODLAR') {
+      this.props.navigation.navigate('modespage');
+    }
+
   }
-  
+
   render() {
     return (
       <View>
@@ -103,7 +107,7 @@ const styles = StyleSheet.create({
   item: {
     padding: 1,
     marginHorizontal: 10,
-    height: 120,
+    height: 150,
     width: 'auto',
     marginBottom: 30,
     textAlign: 'center',
@@ -119,7 +123,7 @@ const styles = StyleSheet.create({
   box_Text: {
     fontFamily: 'valorant',
     textAlign: 'center',
-    color : 'red',
+    color: 'red',
     marginTop: 'auto',
     marginBottom: 'auto',
     fontSize: 20

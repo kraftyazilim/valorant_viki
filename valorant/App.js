@@ -2,7 +2,6 @@ import 'react-native-gesture-handler';
 import * as React from 'react';
 import { CardStyleInterpolators,createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import { mainpage } from './src/mainpage';
 import { choosepage } from './src/choosepage';
 import { agentspage } from './src/agentspage';
 import { weaponspage } from './src/weaponspage';
@@ -26,10 +25,10 @@ export default function App() {
   >
        
        
-       <Stack.Screen name="mainpage" component={mainpage} />
+
        <Stack.Screen name="choosepage" component={choosepage} />
        <Stack.Screen name="agentspage" component={agentspage} />
-       <Stack.Screen name="weaponspage" component={weaponspage} />
+       
        <Stack.Screen name="mapspage" component={mapspage} />
        <Stack.Screen name="modespage" component={modespage} />
        <Stack.Screen name="agentpage" component={agentpage} />

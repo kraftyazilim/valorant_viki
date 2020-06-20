@@ -1,0 +1,26 @@
+{
+    
+    "weapons" : [
+
+        {   "id"   : "1",
+            "name" : "BIND",
+            "text" : "İki bölge var. Ortası yok. Ya sağı seçeceksin ya da solu. Eee, hepsi bu kadar mı? Tabii ki değil! İki tarafta da saldıranların kullanabileceği yollar ve rakipleri arkadan vurmaya yardımcı olacak tek yönlü ışınlayıcılar bulunuyor."                        
+        },
+
+        {   "id"   : "2",
+            "name" : "HAVEN",
+            "text" : "Terk edilmiş bir manastırın avlusunda kapışan ajanlar üç bölgeyi de kontrol altına alabilmek için birbirini yiyor. Kontrol altına alınacak çok bölge var, fakat savunucuların ele geçireceği fazladan bina daha saldırgan şekilde püskürtme yapabilmeleri için faydalı olabilir."                        
+        },
+
+        {   "id"   : "3",
+            "name" : "SPLIT",
+            "text" : "Uzağa kaçmak istiyorsan yukarı gitmen lazım. Birkaç farklı bölgenin tam ortasında yükselen merkez noktası, iki tane yükseltici halat yardımıyla hızlı bir şekilde hareket etme imkânı tanıyor. Her bir bölgede kontrolü sağlayabilmek için hayati öneme sahip iki dev kule bulunuyor. Gözün göklerden gelebilecek tehlikelerde olsun."                        
+        },
+
+        {   "id"   : "4",
+            "name" : "ASCENT",
+            "text" : "Ascent, sahip olduğu iki bölge nedeniyle küçük çatışmalara ve sürtüşmelere sahne olan açık bir oyun alanı gibi. İki bölgede de güçlendirilmiş, tekrar açılamayan bomba kapıları bulunuyor. Bu kapılar bir kere kapandı mı geçmek için ya kapıları yok etmeli ya da başka bir yol bulmalısın. Mümkün olduğunca az alan kaybetmeye çalış."                        
+        }
+ 
+    ]
+}

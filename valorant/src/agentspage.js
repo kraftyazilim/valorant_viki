@@ -9,13 +9,12 @@ import {
   Text,
   TouchableOpacity
 } from 'react-native';
-import background_File from './res/arkaplan.png';
-import section_Box from './res/section_Box.png';
-import breach from './res/Breach.png';
-import brimstone from './res/Brimstone.png';
-import cypher from './res/Cypher.png';
-import jett from './res/Jett.png';
-import omen from './res/Omen.png';
+import background_File from './res/background.png';
+import breach from './res/agents_page/Breach.png';
+import brimstone from './res/agents_page/Brimstone.png';
+import cypher from './res/agents_page/Cypher.png';
+import jett from './res/agents_page/Jett.png';
+import omen from './res/agents_page/Omen.png';
 
 
 
@@ -90,29 +89,29 @@ export class agentspage extends Component {
           >
             <Text style={styles.box_Text}>{item.title} </Text>
           </ImageBackground>
-  
+
         </TouchableOpacity>
       </View>
     );
   }
 
-  nextScreen = ({item}) => {
-    
-    this.props.navigation.navigate('agentpage',{agent:item.title});}
-  
+  nextScreen = ({ item }) => {
+
+    this.props.navigation.navigate('agentpage', { agent: item.title });
+  }
+
   render() {
     return (
       <View>
         <ImageBackground
-        
+
 
           style={{ width: '100%', height: '100%' }}
           source={background_File} >
           <View>
 
-              <Text style = {styles.header}> AGENTS</Text>
+            <Text style={styles.header}> AGENTS</Text>
 
-            
           </View>
 
           <View>
@@ -153,18 +152,18 @@ const styles = StyleSheet.create({
     marginTop: 'auto',
     marginBottom: 'auto',
     fontSize: 20,
-    fontFamily : 'valorant',
+    fontFamily: 'valorant',
     color: 'white'
   },
 
-  header : {
+  header: {
 
-    fontFamily : 'valorant',
-    fontSize : 45,
-    color : 'white',
-    marginBottom : 'auto',
-    marginTop : 47,
-    textAlign : 'center',
+    fontFamily: 'valorant',
+    fontSize: 45,
+    color: 'white',
+    marginBottom: 'auto',
+    marginTop: 47,
+    textAlign: 'center',
 
 
 

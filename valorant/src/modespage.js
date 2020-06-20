@@ -1,4 +1,3 @@
-import background_File from './res/main.png';
 import React, { Component } from 'react';
 import {
   StyleSheet,

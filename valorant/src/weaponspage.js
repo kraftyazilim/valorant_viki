@@ -9,43 +9,39 @@ import {
   Text,
   TouchableOpacity
 } from 'react-native';
-import background_File from './res/arkaplan.png';
+import background_File from './res/background.png';
+
+
 
 const DATA = [
   {
     id: '1',
-    title: 'TABANCA',
-    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
+    image : a
   },
   {
     id: '2',
-    title: 'HAFIF MAKINELI',
-    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
+    image : d
   },
+
   {
     id: '3',
-    title: 'TUFEK',
-    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
+    image : a  
   },
   {
     id: '4',
-    title: 'POMPALI',
-    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
+    image : a    
   },
   {
     id: '5',
-    title: 'AGIR MAKINELI',
-    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
+    image : a  
   },
   {
     id: '6',
-    title: 'KESKIN NISANCI',
-    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
+    image : a  
   },
   {
     id: '7',
-    title: 'BICAK',
-    image : 'https://raw.githubusercontent.com/kraftyazilim/valorant_viki/master/valorant/src/res/smgs.png'
+    image :   acos  
   }
 ];
 
@@ -63,11 +59,12 @@ export class weaponspage extends Component {
       
       <View style={styles.item}>
         <TouchableOpacity onPress={() => this.nextScreen({ item })}  >
-          <ImageBackground style={styles.item}
-            source={{uri : item.image}}
-            resizeMode="contain"
-          >
-            <Text style={styles.box_Text}>{item.title} </Text>
+        <ImageBackground style={styles.item}
+            source={item.image}
+            resizeMode="contain" >
+
+
+            <Text style={styles.box_Text}> </Text>
           </ImageBackground>
   
         </TouchableOpacity>
@@ -112,11 +109,11 @@ const styles = StyleSheet.create({
 
   item: {
     padding: 1,
-    marginHorizontal: 10,
-    height: 80,
+    height: 200,
     width: 'auto',
     marginBottom: 30,
-    textAlign: 'center'
+    textAlign: 'center',
+
   },
   title: {
     fontSize: 32,

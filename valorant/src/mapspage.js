@@ -9,12 +9,13 @@ import {
   Text,
   TouchableOpacity
 } from 'react-native';
-import background_File from './res/sections.png';
-import range from './res/range.png';
-import bind from './res/bind.png';
-import split from './res/split.png';
-import haven from './res/haven.png';
-import ascent from './res/ascent.png';
+
+import background_File from './res/background.png';
+import range from './res/maps_page/range.png';
+import bind from './res/maps_page/bind.png';
+import split from './res/maps_page/split.png';
+import haven from './res/maps_page/haven.png';
+import ascent from './res/maps_page/ascent.png';
 
 
 
